@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>微信聊天报告</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #6ec1e4, #b39ddb);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 10px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .stat {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 15px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .stat div {
+            text-align: center;
+        }
+
+        .stat h2 {
+            font-size: 18px;
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .stat p {
+            font-size: 14px;
+            color: #888;
+        }
+
+        .footer {
+            margin-top: 20px;
+        }
+
+        .footer img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+
+        .footer p {
+            font-size: 12px;
+            color: #999;
+        }
+
+        .qr-code {
+            margin-top: 10px;
+            width: 80px;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <img src="./Love_files/image1.jpg" alt="User 1">
+            <img src="./Love_files/image2.jpg" alt="User 2">
+        </div>
+
+        <h1>望白月 & Sunny小婷 的微信聊天报告</h1>
+
+        <div class="stat">
+            <div>
+                <h2>113 天</h2>
+                <p>认识时长</p>
+            </div>
+            <div>
+                <h2>6496 条</h2>
+                <p>8月发送消息</p>
+            </div>
+        </div>
+
+        <div class="stat">
+            <div>
+                <h2>84 天</h2>
+                <p>聊天天数</p>
+            </div>
+            <div>
+                <h2>7166 条</h2>
+                <p>发送消息</p>
+            </div>
+            <div>
+                <h2>6166 条</h2>
+                <p>收到消息</p>
+            </div>
+        </div>
+
+        <div class="stat">
+            <div>
+                <h2>22:00 - 02:00</h2>
+                <p>活跃时段</p>
+            </div>
+            <div>
+                <h2>81806</h2>
+                <p>总字数</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>年度关键字: 哈哈哈</p>
+            <img src="./Love_files/image3.jpg" alt="Emoji">
+            <img src="./Love_files/image4.jpg" alt="QR Code" class="qr-code">
+        </div>
+    </div>
+</body>
+</html>
